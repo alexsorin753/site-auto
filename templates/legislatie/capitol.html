@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ capitol.titlu }}{% endblock %}
+
+{% block content %}
+<p><a href="{{ url_for('legislatie') }}">← Toate capitolele</a></p>
+<h1>{{ capitol.titlu }}</h1>
+<p class="lead">{{ capitol.rezumat }}</p>
+
+{% for paragraf in capitol.continut %}
+  <p>{{ paragraf }}</p>
+{% endfor %}
+
+<p>
+  <a class="btn" href="{{ url_for('chestionar', cat='B', mod='practica', capitol=capitol.slug) }}">
+    Exersează acest capitol
+  </a>
+</p>
+{% endblock %}

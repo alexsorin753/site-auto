@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "prioritate",
+    "titlu": "Prioritatea de trecere",
+    "rezumat": "Cine trece primul în intersecții, la indicatoare și în situații speciale.",
+    "continut": [
+      "Conținut de completat, pe baza Codului Rutier (OUG 195/2002) și a regulamentului de aplicare."
+    ]
+  },
+  {
+    "slug": "viteza",
+    "titlu": "Viteza",
+    "rezumat": "Limite de viteză pe tipuri de drum și reguli de adaptare a vitezei.",
+    "continut": [
+      "Conținut de completat, pe baza Codului Rutier (OUG 195/2002) și a regulamentului de aplicare."
+    ]
+  },
+  {
+    "slug": "semnalizare",
+    "titlu": "Semafoare și semnale",
+    "rezumat": "Semnificația culorilor semaforului și a semnalelor polițistului rutier.",
+    "continut": [
+      "Conținut de completat, pe baza Codului Rutier (OUG 195/2002) și a regulamentului de aplicare."
+    ]
+  },
+  {
+    "slug": "siguranta",
+    "titlu": "Siguranța în circulație",
+    "rezumat": "Centura de siguranță, sistemele de reținere pentru copii, echipamente obligatorii.",
+    "continut": [
+      "Conținut de completat, pe baza Codului Rutier (OUG 195/2002) și a regulamentului de aplicare."
+    ]
+  },
+  {
+    "slug": "depasire",
+    "titlu": "Depășirea",
+    "rezumat": "Când este permisă și când este interzisă depășirea.",
+    "continut": [
+      "Conținut de completat, pe baza Codului Rutier (OUG 195/2002) și a regulamentului de aplicare."
+    ]
+  }
+]

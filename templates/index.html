@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Acasă{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1>Pregătește-ți examenul auto</h1>
+  <p>Chestionare cu explicații și legislația rutieră pe înțelesul tuturor.</p>
+  <a class="btn" href="{{ url_for('chestionar', cat='B', mod='simulare') }}">Începe o simulare (cat. B)</a>
+  <a class="btn btn-sec" href="{{ url_for('chestionare') }}">Toate chestionarele</a>
+</section>
+
+<section class="stats">
+  <div class="card stat"><strong>{{ nr_intrebari }}</strong><span>întrebări</span></div>
+  <div class="card stat"><strong>{{ config.categorii|length }}</strong><span>categorii</span></div>
+  <div class="card stat"><strong>{{ nr_capitole }}</strong><span>capitole de legislație</span></div>
+</section>
+
+<section class="grid">
+  <a class="card link-card" href="{{ url_for('chestionare') }}">
+    <h2>Chestionare</h2>
+    <p>Simulare de examen, practică liberă, pe capitole sau doar întrebările greșite.</p>
+  </a>
+  <a class="card link-card" href="{{ url_for('legislatie') }}">
+    <h2>Legislație</h2>
+    <p>Codul rutier explicat pe capitole, cu exerciții la final.</p>
+  </a>
+  <a class="card link-card" href="{{ url_for('indicatoare') }}">
+    <h2>Indicatoare și marcaje</h2>
+    <p>Galerie vizuală cu semnificația fiecărui indicator.</p>
+  </a>
+</section>
+{% endblock %}
